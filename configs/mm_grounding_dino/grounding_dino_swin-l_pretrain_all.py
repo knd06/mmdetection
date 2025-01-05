@@ -4,7 +4,6 @@ load_from = 'https://download.openmmlab.com/mmdetection/v3.0/mm_grounding_dino/g
 
 num_levels = 5
 model = dict(
-    use_autocast=True,
     num_feature_levels=num_levels,
     backbone=dict(
         _delete_=True,
